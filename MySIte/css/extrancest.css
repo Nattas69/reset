@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&display=swap');
+.fon {
+    width: auto;
+    background-attachment: fixed;
+    height: 200px;
+    background: linear-gradient(120deg, rgba(52, 34, 195, 1) 0%, rgba(218, 7, 255, 1) 100%);
+    border-top: 5px solid #7e7e7e;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#poisk * {
+    box-sizing: border-box;
+}
+
+#poisk form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+#poisk input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #16F5EF;
+    background: #ffffff;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+#poisk input:focus {
+    width: 300px;
+}
+
+h3 {
+    font-family: 'Bentham', serif;
+}
+
+.lil {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bentham', serif;
+}
+
+h3.title-example {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+h3.title-example:before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #b88dff;
+    width: 150px;
+    margin: 0 auto 10px;
+    transition: 1s;
+}
+
+h3.title-example:hover:before {
+    width: 200px;
+    transition: ease-out 1s;
+}
+
+h3.title-example:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #b88dff;
+    width: 150px;
+    margin: 10px auto 0;
+    transition: 1s;
+}
+
+h3.title-example:hover:after {
+    width: 200px;
+    transition: ease-out 1s;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu li {
+    font-size: 18px;
+}
+
+.top-menu li:hover {
+    background-color: #29c5e6;
+}
+
+.top-menu li:hover a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b88dff;
+    font-family: 'Bentham', serif;
+}
+
+.lil {
+    float: left;
+    font-family: 'Bentham', serif;
+}
+
+h3 {
+    font-family: 'Bentham', serif;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16, 5px;
+    font-family: 'Bentham', serif;
+}
+
+li a:hover {
+    background-color: #332e63;
+}
+
+.active {
+    background-color: #16ccf5;
+    font-family: 'Bentham', serif;
+}
+
+#heading {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Bentham', serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+#footer {
+    width: auto;
+    margin: auto;
+    padding: 10px 20px;
+    height: 145px;
+    background-color: #8d52eb;
+}
+
+footer h3 {
+    font-family: 'Bentham', serif;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 10px 0;
+}
+
+#twitter time a {
+    color: #fafafa;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Bentham', serif;
+}
+
+#twitter {
+    float: left;
+    width: 300px;
+}
+
+#twitter p {
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #dbdbdb;
+}
+
+#sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+
+#sitemap div {
+    display: inline-block;
+}
+
+#sitemap div+div {
+    margin-left: 100px;
+}
+
+#sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Bentham', serif;
+}
+
+#sitemap a:hover {
+    text-decoration: underline;
+}
+
+#social {
+    float: left;
+    margin-left: 150px;
+    width: 160px;
+    padding: unset;
+}
+
+.lil {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bentham', serif;
+}
+
+#footer-logo {
+    float: right;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.container {
+    padding: 16px;
+    width: 900px;
+    height: 600px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.container b {
+    font-family: 'Bentham', serif;
+    font-size: 18px;
+    color: #fff;
+}
+
+.container img {
+    padding: 10px;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.registerbtn {
+    background-color: #332e63;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}

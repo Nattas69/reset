@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital@1&display=swap');
+.fon {
+    width: auto;
+    background-attachment: fixed;
+    height: 200px;
+    background: linear-gradient(120deg, rgba(52, 34, 195, 1) 0%, rgba(218, 7, 255, 1) 100%);
+    border-top: 5px solid #7e7e7e;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#poisk * {
+    box-sizing: border-box;
+}
+
+#poisk form {
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+
+#poisk input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #16F5EF;
+    background: #ffffff;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+#poisk input:focus {
+    width: 300px;
+}
+
+h3 {
+    font-family: 'Bentham', serif;
+}
+
+.lil {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bentham', serif;
+}
+
+h3.title-example {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+
+h3.title-example:before {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #b88dff;
+    width: 150px;
+    margin: 0 auto 10px;
+    transition: 1s;
+}
+
+h3.title-example:hover:before {
+    width: 200px;
+    transition: ease-out 1s;
+}
+
+h3.title-example:after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: #b88dff;
+    width: 150px;
+    margin: 10px auto 0;
+    transition: 1s;
+}
+
+h3.title-example:hover:after {
+    width: 200px;
+    transition: ease-out 1s;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu li {
+    font-size: 18px;
+}
+
+.top-menu li:hover {
+    background-color: #29c5e6;
+}
+
+.top-menu li:hover a {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b88dff;
+    font-family: 'Bentham', serif;
+}
+
+.lil {
+    float: left;
+    font-family: 'Bentham', serif;
+}
+
+h3 {
+    font-family: 'Kaushan Script';
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16, 5px;
+    font-family: 'Kaushan Script';
+}
+
+li a:hover {
+    background-color: #332e63;
+}
+
+.active {
+    background-color: #16ccf5;
+    font-family: 'Bentham', serif;
+}
+
+#heading {
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Bentham', serif;
+    font-size: 25px;
+    color: #fff;
+}
+
+#footer {
+    width: auto;
+    margin: auto;
+    padding: 10px 20px;
+    height: 145px;
+    background-color: #8d52eb;
+}
+
+footer h3 {
+    font-family: 'Bentham', serif;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 0 0 10px 0;
+}
+
+#twitter time a {
+    color: #fafafa;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-family: 'Bentham', serif;
+}
+
+#twitter {
+    float: left;
+    width: 300px;
+}
+
+#twitter p {
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+footer a {
+    color: #dbdbdb;
+}
+
+#sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 100px;
+    padding-right: 50px;
+}
+
+#sitemap div {
+    display: inline-block;
+}
+
+#sitemap div+div {
+    margin-left: 100px;
+}
+
+#sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Bentham', serif;
+}
+
+#sitemap a:hover {
+    text-decoration: underline;
+}
+
+#social {
+    float: left;
+    margin-left: 150px;
+    width: 160px;
+    padding: unset;
+}
+
+.lil {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Bentham', serif;
+}
+
+#footer-logo {
+    float: right;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.wrapper {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.profile-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+}
+
+.profile-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.profile-info {
+    float: left;
+    height: 420px;
+    width: 327px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #ffffff;
+}
+
+.profile-text {
+    height: 300px;
+    width: 327px;
+}
+
+.profile-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 52px;
+    font-size: 34px;
+    color: #474747;
+}
+
+.profile-text h1,
+.profile-btn p {
+    font-family: 'Bentham', serif;
+}
+
+.profile-text h2 {
+    margin: 0 0 47px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.profile-text p {
+    height: 125px;
+    margin: 0 0 0 38px;
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+}
+
+.product-price-btn {
+    height: 103px;
+    width: 327px;
+    margin-top: 17px;
+    position: relative;
+}
+
+.product-price-btn p {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    height: 50px;
+    font-family: 'Trocchi', serif;
+    margin: 0 0 0 38px;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+}
+
+span {
+    display: inline-block;
+    height: 50px;
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.product-price-btn button {
+    display: inline-block;
+    height: 50px;
+    width: 176px;
+    margin: 0 40px 0 16px;
+    box-sizing: border-box;
+    border: transparent;
+    border-radius: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #16ccf5;
+    ;
+    cursor: pointer;
+    outline: none;
+}
+
+.product-price-btn button:hover {
+    background-color: #332e63;
+}
